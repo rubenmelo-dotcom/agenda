@@ -9,6 +9,7 @@ db.sqlite3
 media
 static/
 media/
+agenda/local_settings.py
 
 # Backup files # 
 *.bak 

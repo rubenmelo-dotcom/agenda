@@ -124,3 +124,7 @@ STATICFILES_DIRS = (
     BASE_DIR / 'base_static',
 )
 
+try:
+    from agenda.local_settings import *
+except ImportError:
+    ...
